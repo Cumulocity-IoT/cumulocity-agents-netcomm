@@ -5,7 +5,7 @@ Cumulocity NetComm Agent is a dedicated agent software for connecting the NetCom
 ### Supported NetComm Device ###
 NTC-220 series
 
-For NTC-6200 and NTC-140W, move to [our NTC-6200 branch](https://github.com/SoftwareAG/cumulocity-agents-netcomm/tree/NTC-6200).
+For NTC-6200 and NTC-140W, move to [our NTC-6200 branch](https://github.com/Cumulocity-IoT/cumulocity-agents-netcomm/tree/NTC-6200).
 
 
 ### How to build the agent? ###
@@ -15,10 +15,10 @@ For NTC-6200 and NTC-140W, move to [our NTC-6200 branch](https://github.com/Soft
 ```
 #!bash
 
-git clone git@github.com:SoftwareAG/cumulocity-agents-netcomm.git
+git clone git@github.com:Cumulocity-IoT/cumulocity-agents-netcomm.git
 ```
 
-* Build the [Cumulocity C++ library](https://github.com/SoftwareAG/cumulocity-sdk-c) with the provided *init.mk* from the repo.
+* Build the [Cumulocity C++ library](https://github.com/Cumulocity-IoT/cumulocity-sdk-c) with the provided *init.mk* from the repo.
 * Copy the compiled library files to the *lib/* directory under the agent root directory.
 
 ```

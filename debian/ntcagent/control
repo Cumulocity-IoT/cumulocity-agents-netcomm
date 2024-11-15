@@ -3,6 +3,6 @@ Priority: optional
 Section: Misc
 Version: 5.0.0
 Architecture: arm
-Maintainer: Software AG Cumulocity IoT <Helpdesk-CumulocityIoT@softwareag.com>
+Maintainer: Cumulocity IoT <unmaintained@cumulocity.com>
 Depends:
 Description: NTC SmartREST agent for Cumulocity.

@@ -14,11 +14,11 @@ pipeline {
             steps {
                 container('ansic') {
                     dir('c-sdk') {
-                        git branch: "$sdkbranch", credentialsId: "jenkins-master", url:'git@github.com:SoftwareAG/cumulocity-sdk-c.git'
+                        git branch: "$sdkbranch", credentialsId: "jenkins-master", url:'git@github.com:Cumulocity-IoT/cumulocity-sdk-c.git'
                         sh 'git submodule update --init --recursive'
                     }
                     dir('agent') {
-                        git branch: "$agentbranch", credentialsId: "jenkins-master", url:'git@github.com:SoftwareAG/cumulocity-agents-netcomm.git'
+                        git branch: "$agentbranch", credentialsId: "jenkins-master", url:'git@github.com:Cumulocity-IoT/cumulocity-agents-netcomm.git'
                         sh 'git submodule update --init --recursive'
                     }
                 }
