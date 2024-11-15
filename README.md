@@ -59,7 +59,7 @@ The cumulocity-ntc-agent will contain agent binary, cloud remote access binary, 
 
 ### FAQ ###
 
-* Installation of IPK file failed because of missing the package sigunature. How can I fix it?
+* Installation of IPK file failed because of missing the package signature. How can I fix it?
 
 1) Disable the package signature check on your NetComm device by navigating to System > System Configuration > Firmware signature.
 
